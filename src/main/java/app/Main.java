@@ -28,6 +28,8 @@ public class Main
 
         System.out.println("Teacher: " + course.getTeacher().getName());
 
+        System.out.println("Course name: " + course.getName() + " --> Students quantity: " + course.getStudents().size());
+
         sessionFactory.close();
     }
 }
